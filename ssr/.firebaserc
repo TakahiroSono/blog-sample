@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-ssr-sample": {
+      "hosting": {
+        "ssr": [
+          "angular-ssr-sample"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-ssr-sample"
+  }
+}
