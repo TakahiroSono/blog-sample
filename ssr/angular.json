@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "1b983399-eb51-4308-b003-c221cf551b25"
+    "analytics": "a1225379-cce4-4523-9076-8d9db452d7ef"
   },
   "version": 1,
   "newProjectRoot": "projects",
@@ -165,22 +165,6 @@
             }
           },
           "defaultConfiguration": "production"
-        },
-        "deploy": {
-          "builder": "@angular/fire:deploy",
-          "options": {
-            "ssr": "cloud-functions",
-            "prerender": true,
-            "firebaseProject": "angular-ssr-sample",
-            "firebaseHostingSite": "angular-ssr-sample",
-            "functionName": "ssr_ssr",
-            "functionsNodeVersion": "14",
-            "region": "us-central1",
-            "browserTarget": "ssr:build:production",
-            "serverTarget": "ssr:server:production",
-            "prerenderTarget": "ssr:prerender:production",
-            "outputPath": "dist/ssr/functions"
-          }
         }
       }
     }
