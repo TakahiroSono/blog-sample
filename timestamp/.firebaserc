@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sample-timestamp-effb4": {
+      "hosting": {
+        "timestamp": [
+          "sample-timestamp-effb4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sample-timestamp-effb4"
+  }
+}
