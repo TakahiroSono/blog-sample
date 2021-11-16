@@ -1,1 +1,5 @@
-<p>postcard works!</p>
+<div class="container">
+  <button (click)="post()">送信</button>
+  <button (click)="getData()">受信</button>
+  {{content ? content.title : 'undefined'}}
+</div>
