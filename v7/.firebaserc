@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angularfire-v7": {
+      "hosting": {
+        "v7": [
+          "angularfire-v7"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angularfire-v7"
+  }
+}
