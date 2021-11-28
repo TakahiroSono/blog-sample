@@ -1,1 +1,25 @@
-<router-outlet></router-outlet>
+<div class="container">
+  <button (click)="post()">送信</button>
+  <button (click)="fetch()">受信</button>
+  <button (click)="collect()">一覧</button>
+  <button (click)="update()">更新</button>
+  <button (click)="delete()">削除</button>
+  <div>
+    <h1>{{postcard.title}}</h1>
+    <div>{{postcard.content}}</div>
+    <div>{{postcard.createdAt.toDate() | date}}</div>
+  </div>
+  <div>
+    <h1>{{postcard.title}}</h1>
+    <div>{{postcard.content}}</div>
+    <div>{{postcard.updatedAt.toDate()}}</div>
+  </div>
+  <ul>
+    <li *ngFor="let card of postcards">
+      <h1>{{card.title}}</h1>
+      <div>{{card.id}}</div>
+      <div>{{card.content}}</div>
+      <div>{{card.createdAt.toDate() | date}}</div>
+    </li>
+  </ul>
+</div>
